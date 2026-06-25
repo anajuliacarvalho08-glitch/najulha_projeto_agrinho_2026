@@ -6,28 +6,28 @@
 <title>EcoMissão</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <div class="container">
+
     <h1>🌎 EcoMissão</h1>
 
     <h2>Pontos: <span id="pontos">0</span></h2>
 
-    <div id="missao">
-        <h3>Missão 1</h3>
-        <p>O que fazer com uma garrafa plástica?</p>
+    <div id="game">
 
-        <button onclick="resposta('errado')">🗑️ Jogar no chão</button>
-        <button onclick="resposta('certo')">♻️ Reciclar</button>
-        <button onclick="resposta('errado')">🔥 Queimar</button>
+        <p id="pergunta">Carregando...</p>
+
+        <div id="botoes"></div>
+
     </div>
 
     <p id="mensagem"></p>
 
     <div class="arvores">
-        <h3>🌳 Plantar Árvores</h3>
-        <button onclick="plantar()">Plantar</button>
-        <p>Árvores plantadas: <span id="arvores">0</span></p>
+        <h3>🌳 Árvores: <span id="arvores">0</span></h3>
+        <button onclick="plantar()">Plantar árvore</button>
     </div>
 
 </div>
